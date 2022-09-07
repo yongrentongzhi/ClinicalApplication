@@ -1,8 +1,8 @@
 server:
-  port: 8082
+  port: 8182
 spring:
   application:
-    name: civ
+    name: rest-server
   cloud:
     nacos:
       discovery:

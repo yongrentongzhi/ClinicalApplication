@@ -1,0 +1,13 @@
+nacos-addr: &nacos-addr 192.168.2.202:8848
+
+spring:
+  application:
+    name: hdr-civ
+  cloud:
+    nacos:
+      discovery:
+        server-addr: *nacos-addr
+      config:
+        server-addr: *nacos-addr
+        file-extension: yaml
+        refresh-enabled: true
